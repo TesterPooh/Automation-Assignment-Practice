@@ -29,11 +29,11 @@ public AddressPOJO(String company, String addressLine1, String addressLine2, Str
 	this.addressalias = addressalias;
 	this.state = state;
 }
-public AddressPOJO(String name, String buildingNumber, String streetAddress, String city2, String zipCode2,
-		String country2, String phoneNumber, String cellPhone, String additionalinfo2, String addressalias2,
-		int numberBetween) {
+//public AddressPOJO(String name, String buildingNumber, String streetAddress, String city2, String zipCode2,
+	//	String country2, String phoneNumber, String cellPhone, String additionalinfo2, String addressalias2,
+	//	int numberBetween) {
 	// TODO Auto-generated constructor stub
-}
+//}
 @Override
 public String toString() {
 	return "AddressPOJO [company=" + company + ", addressLine1=" + addressLine1 + ", addressLine2=" + addressLine2
