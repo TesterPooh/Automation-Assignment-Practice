@@ -9,6 +9,7 @@ import com.ui.pages.MyAccountPage;
 
 public class SearchProductTest extends TestBase {
 	private MyAccountPage  myAccountPage;
+	//Hello
 	private static final String SEARCH_TERM = "Printed Summer Dress";
 	@BeforeMethod(description = "valid user logs into application")
 	public void Setup()
