@@ -12,7 +12,7 @@ The framework follows industry best practices, including the **Page Object Model
 
 ## Tech Stack
 
-* Java 17+
+* Java 11+
 * Selenium WebDriver
 * TestNG
 * Maven
@@ -101,13 +101,13 @@ git --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/selenium-java-framework.git
+git clone https://github.com/TesterPooh/Automation-Assignment-Practice.git
 ```
 
 Navigate to the project:
 
 ```bash
-cd selenium-java-framework
+cd Automation-Assignment-Practice
 ```
 
 Install dependencies:
@@ -132,12 +132,16 @@ Run a specific TestNG suite:
 mvn test -DsuiteXmlFile=testng.xml
 ```
 
-Run with a specific browser:
+Run with a specific browser and on lambdatest in headlessmode:
 
 ```bash
-mvn test -Dbrowser=chrome
+mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadLess=false
 ```
+Run with a specific browser and on localMachine in headlessmode:
 
+```bash
+mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadLess=true
+```
 ---
 
 ## Test Reports
@@ -146,7 +150,7 @@ After execution, reports are generated in:
 
 ```
 /test-output
-/reports
+/reports.html
 ```
 
 The Extent Report includes:
@@ -277,6 +281,10 @@ jobs:
 
 ## Author
 
-**Your Name**
+Poonam Patil
+([https://github.com/TesterPooh])
+[www.linkedin.com/in/poonammpatil]
+email:poonamkolhe3@gmail.com
+
 
 For questions or suggestions, feel free to open an issue or submit a pull request.
